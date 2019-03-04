@@ -1,0 +1,166 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body *{
+    box-sizing: border-box;
+
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url('../images/1.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url('../images/2.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax3 {
+    /* The image used */
+    background-image: url('../images/3.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax4 {
+    /* The image used */
+    background-image: url('../images/4.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax5 {
+    /* The image used */
+    /* background-image: url('../images/5.png');
+   */
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.backimage{
+    background-image: url(../images/s4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+  
+    /*height: 800px;*/
+  }
+  .heading i{
+    text-align: center;
+    font-size: 55px; 
+    color: #103781;
+    /* font-weight: bold; */
+    /* background-image: linear-gradient( #3a4b93,#103781); */
+  }
+  .heading2,.heading3,.heading4{
+    float: right;
+    /* margin: 20px 30px 0 0; */
+  }
+  .heading2 p{
+    font-size: 50px;
+  }
+  .p1 p1{
+    font-size: 35px;
+  }
+  table,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th,tr,td{
+    margin: 50px 0px;
+    padding: 10px;
+  }
+  .heading3 h3,.heading4 h3{
+    margin-right: 100px;
+  }
+  .row img{
+    margin: 20px;
+  }
+  /* .heading{
+   padding-top: 50px;
+  } */
+  .blink_me {
+      background-color: black;
+      color: white;
+      position: fixed;
+      width: 57px;
+      right: 0;
+      bottom: 100px;
+      /* top: 280px; */
+    
+      height: 60px;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
